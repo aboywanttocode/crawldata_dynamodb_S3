@@ -82,7 +82,7 @@ Run the following command to start the scraping process:
 
 # Bash
 
-python main.py
+python fetch.py
 The script will automatically:
 
 Read files sequentially from the batches/ folder.
