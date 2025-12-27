@@ -35,8 +35,8 @@ Clone this repository to your local machine and install the required libraries:
 
 Bash
 
-git clone https://github.com/YOUR-USERNAME/tiki-hybrid-crawler.git
-cd tiki-hybrid-crawler
+git clone https://github.com/aboywanttocode/crawldata_dynamodb_S3.git
+cd project2
 pip install -r requirements.txt
 (If requirements.txt is missing, create it with the following content):
 
@@ -91,7 +91,7 @@ Scrape data from the Tiki API using the "Local Worker".
 
 Save data directly to DynamoDB.
 
-Report real-time progress (Green text ☁️ Saved... indicates success).
+Report real-time progress (Green text  Saved... indicates success).
 
 # Export Data
 Once the process is complete, your data is safely stored on AWS DynamoDB. To download it:
